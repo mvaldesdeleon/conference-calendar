@@ -1,106 +1,86 @@
-# Conference Calendar
+# Mission Statement
 
-**PLEASE SEE [MISSION STATEMENT](https://github.com/mvaldesdeleon/conference-calendar/tree/master/MISSION_STATEMENT.md)!**
+## The Problem
 
-**Things have changed. Old content below.**
+As a developer wanting to get started as a technical speaker, I need to be aware of all technical conferences open to certain topics that might be going on in the following, say, 12 months.
 
-List of all upcoming conferences. PR's welcome.
+Personally, I am interested in JavaScript and Functional Programming.
 
-# 2018
+Before starting this project, I tried (quickly and poorly) to find if what I needed already existed.
 
-Event (URL) | Location | Start Date | End Date | CFP Url | CFP Due Date | Keywords
---- | --- | --- | --- | --- | --- | ---
-[Beyond Tellerrand](https://beyondtellerrand.com/events/munich-2018) | Munich, Germany | 2018-01-15 | 2018-01-17 |  |  |  
-[Script](https://scriptconf.org/) | Linz, Austria | 2018-01-19 | 2018-01-19 |  |  | 
-[FronteEndNorth](https://frontendnorth.com/) | Sheffield, U.K. | 2018-01-19 | 2018-01-19 |  |  | 
-[ReactFoo](https://reactfoo.in/2018-pune/) | Pune, India | 2018-01-19 | 2018-01-20 | [link](https://reactfoo.talkfunnel.com/2018-pune/) |  | 
-[JSConf Asia](https://2018.jsconf.asia/) | Singapore, Singapore | 2018-01-25 | 2018-01-27 | [link](https://contribute.jsconf.asia/) |  | 
-[Agent Conf](https://www.agent.sh) | Dornbirn, Austria | 2018-01-25 | 2018-01-26 |  | 2017-10-20 | 
-[ngAtlanta](http://ng-atl.org/) | Atlanta, U.S.A. | 2018-01-30 | 2018-02-02 |  |  | 
-[ng-europe](https://ngeurope.org/) | Paris, France | 2018-02-01 | 2018-02-02 |  | 2017-09-17 | 
-[DeveloperWeek JavaScript Conference](http://www.developerweek.com/javascript-conference/) | San Francisco, CA, U.S.A. | 2018-02-05 | 2018-02-06 |  |  | 
-[SmashingConf London](https://smashingconf.com/) | London, U.K. | 2018-02-07 | 2018-02-08 |  |  | 
-[The Rolling Scopes Conference](https://2018.conf.rollingscopes.com) | Minsk, Belarus | 2018-02-10 | 2018-02-11 |  | 2018-12-31 | 
-[ForwardJS](https://forwardjs.com) | San Fransisco, U.S.A. | 2018-02-11 | 2018-02-16 |  |  | 
-[Frontend Developer Love](https://www.frontenddeveloperlove.com) | Amsterdam, Netherlands | 2018-02-15 | 2018-02-16 |  |  | 
-[Vue.js Amsterdam](https://www.vuejs.amsterdam/) | Amsterdam, Netherlands | 2018-02-16 | 2018-02-16 |  |  | 
-[FrontFest](http://frontfest.es/) | Madrid, Spain | 2018-02-17 | 2018-02-17 |  |  | 
-[Assert(js)](https://www.assertjs.com/) | San Antonio, TX, U.S.A. | 2018-02-22 | 2018-02-22 |  |  | 
-[JSConf Iceland](https://2018.jsconf.is/) | Reykjavik, Iceland | 2018-03-01 | 2018-03-02 | [link](http://cfp.jsconf.is/events/jsconf-iceland-2018) | 2017-10-31 | 
-[ngVikings](https://ngvikings.org/) | Helsinki, Finland | 2018-03-01 | 2018-03-02 |  | 2017-12-10 | 
-[.concat()](http://conc.at) | Salzburg, Austria | 2018-03-03 | 2018-03-03 |  | 2017-12-01 | 
-[ReactFest](https://reactfest.com/) | London, U.K. | 2018-03-09 | 2018-03-09 | [link](https://docs.google.com/forms/d/e/1FAIpQLScACeKKR_21RSDcKUxfsjLd1jCCeq-QHxll78gF99rmQCcljA/viewform) | 2018-01-15 | 
-[EmberConf](http://emberconf.com/) | Portland, OR, U.S.A. | 2018-03-13 | 2018-03-14 |  |  | 
-[JSConf AU](https://2018.jsconfau.com/) | Melbourne, Australia | 2018-03-21 | 2018-03-22 |  |  | 
-[JazzCon.Tech](http://jazzcon.tech/) | New Orleans, LA, U.S.A. | 2018-03-21 | 2018-03-23 | [link](https://cfp.connectevents.io/en/jct2018/cfp/session/new) | 2017-11-01 | 
-[Render](https://2018.render-conf.com/) | Oxford, U.K. | 2018-03-23 | 2018-03-23 |  |  | 
-[VueConf.US](http://us.vuejs.org/) | New Orleans, LA, U.S.A. | 2018-03-26 | 2018-03-28 | [link](http://us.vuejs.org/call-for-papers) | 2017-12-01 | 
-[CityJSConf](http://cityjsconf.org) | London, U.K. | 2018-03-26 | 2018-03-26 | [link](https://www.papercall.io/cfps/826/submissions/new) | 2018-01-14 | 
-[#PerfMatters Conference](https://perfMattersConf.com) | Redwood City, CA, U.S.A. | 2018-03-27 | 2018-03-28 | [link](https://perfmattersconf.com/speak/) |  | 
-[ForwardJS](https://forwardjs.com/ottawa) | Ottawa, Canada | 2018-04-03 | 2018-04-06 | [link](https://goo.gl/forms/cCKHB08d20nA0AZr1) |  | 
-[Frontend NE](https://2018.frontendne.co.uk/) | Newcastle-Upon-Tyne, U.K. | 2018-04-05 | 2018-04-05 | [link](https://2018.frontendne.co.uk/call-for-speakers.html) | 2017-12-07 | 
-[iJS](https://javascript-conference.com/en/) | London, U.K. | 2018-04-11 | 2018-04-13 |  |  | 
-[React Amsterdam](https://react.amsterdam) | Amsterdam, Netherlands | 2018-04-13 | 2018-04-13 |  |  | 
-[Universal JS Day](https://2018.universaljsday.com/) | Ferrara, Italy | 2018-04-13 | 2018-04-13 | [link](https://docs.google.com/forms/d/e/1FAIpQLSeYvQOwVwAn9_nJleql2Vxfy1xjmcpymcs6jfWk_TVPoiypIA/viewform) | 2018-03-11 | 
-[Bulgaria Web Summit](https://bulgariawebsummit.com/) | Sofia, Bulgaria | 2018-04-14 | 2018-04-14 |  |  | 
-[JSHeroes](https://jsheroes.io/) | Cluj-Napoca, Romania | 2018-04-18 | 2018-04-20 | [link](https://docs.google.com/forms/d/e/1FAIpQLSdPSo4Zy_M78PHRVFz90v1_SV3IqRcyhvgK2oCDY6ju6NDWeA/viewform) | 2017-12-31 | 
-[ng-conf](https://www.ng-conf.org/) | Salt Lake City, UT, U.S.A. | 2018-04-18 | 2018-04-20 |  |  | 
-[React Finland](https://react-finland.fi/) | Helsinki, Finland | 2018-04-24 | 2018-04-26 |  |  | 
-[Front End Design Conference](http://frontenddesignconference.com/) | St. Petersburg, Florida, U.S.A. | 2018-04-25 | 2018-04-27 |  |  | 
-[UphillConf](http://uphillconf.com/) | Bern, Switzerland | 2018-04-26 | 2018-04-27 |  |  | 
-[Beyond Tellerrand](https://beyondtellerrand.com/events/duesseldorf-2018) | Düsseldorf, Germany | 2018-05-07 | 2018-05-09 |  |  | 
-[JSDay Italy](http://jsday.it/) | Verona, Italy | 2018-05-09 | 2018-05-10 |  |  | 
-[DeltaV](https://2018.deltavconf.com/) | London, U.K. | 2018-05-10 | 2018-05-11 | [link](https://docs.google.com/forms/d/e/1FAIpQLSfJny3HzeAdgDM_RiTizJnlgRSvbwtIRqM035gG7vfQMLQPmQ/viewform) | 2017-11-16 | 
-[ReactEurope](https://www.react-europe.org/) | Paris, France | 2018-05-17 | 2018-05-18 |  |  | 
-[HolyJS Piter](https://holyjs-piter.ru/en/) | Saint Petersburg, Russia | 2018-05-19 | 2018-05-20 | [link](https://holyjs-piter.ru/en/callforpapers/) |  | 
-[Front-Trends](https://2018.front-trends.com/) | Warsaw, Poland | 2018-05-24 | 2018-05-25 | [link](https://2018.front-trends.com/speaking-at-front-trends/) | 2018-03-31 | 
-[Frontend United](http://frontendunited.org/) | Utrecht, Netherlands | 2018-05-31 | 2018-06-03 |  |  | 
-[JSConf EU](https://2018.jsconf.eu/) | Berlin, Germany | 2018-06-02 | 2018-06-03 |  |  | 
-[Web Rebels](https://www.webrebels.org/) | Oslo, Norway | 2018-06-04 | 2018-06-05 |  |  | 
-[pitercss_conf](https://pitercss.com/) | St. Petersburg, Russia | 2018-06-08 | 2018-06-09 |  |  | 
-[Fluent](https://conferences.oreilly.com/fluent) | San Jose, CA, U.S.A. | 2018-06-11 | 2018-06-14 |  |  | 
-[ConvergeSE](http://convergese.com/) | Columbia, SC, U.S.A. | 2018-06-13 | 2018-06-15 |  |  | 
-[enterJS](https://www.enterjs.de/) | Darmstadt, Germany | 2018-06-19 | 2018-06-21 |  |  | 
-[Chain React](https://infinite.red/ChainReactConf) | Portland, U.S.A. | 2018-07-11 | 2018-07-13 |  |  | 
-[FullStack](https://skillsmatter.com/conferences/9815-fullstack-2018-the-conference-on-javascript-node-and-internet-of-things) | London, U.K. | 2018-07-11 | 2018-07-13 |  |  | 
-[AngularCamp](https://angularcamp.org/) | Barcelona, Spain | 2018-07-18 | 2018-07-20 |  |  | 
-[Node Summit](http://www.nodesummit.com/) | San Francisco, CA, U.S.A. | 2018-07-23 | 2018-07-25 |  |  | 
-[React Rally](http://www.reactrally.com/) | Salt Lake City, UT, U.S.A. | 2018-08-16 | 2018-08-17 |  |  | 
-[React Native EU](https://react-native.eu/) | Wroclaw, Poland | 2018-09-05 | 2018-09-06 |  |  | 
-[ReactNext](http://react-next.com/) | Tel Aviv, Israel | 2018-09-06 | 2018-09-06 |  |  | 
-[JSFoo](https://jsfoo.in) | Bangalore, India | 2018-09-15 | 2018-09-16 |  |  | 
-[ReactJS Day](http://2018.reactjsday.it/) | Verona, Italy | 2018-10-05 | 2018-10-05 |  |  | 
-[Angular Mix](https://angularmix.com) | Orlando, FL, U.S.A. | 2018-10-10 | 2018-10-12 |  |  | 
-[NodeConf EU](http://www.nodeconf.eu/) | Kilkenny, Ireland | 2018-11-04 | 2018-11-08 |  |  | 
+This research yielded the following actively-maintained results:
 
-# Keywords
+* https://confs.tech (https://github.com/tech-conferences)
+* https://frontendfront.com/conferences/ (https://github.com/frontendfront/front-end-conferences)
+* https://codeandtalk.com/ (https://github.com/szabgab/codeandtalk.com)
+* https://conferenceradar.com/ (https://github.com/conferenceradar/list)
+* https://asciidisco.github.io/web-conferences-2018/ (https://github.com/asciidisco/web-conferences-2018)
+* https://github.com/softwaremill/it-cfp-list
 
-* JavaScript
-* Elm
-* Haskell
-* Functional Programming
-* React
-* Angular
-* Node.js
+All of the sources follow a similar pattern of being community-maintained via Pull Requests.
 
-# Acknowledgements
+While I must say that these each of these sources by itself is incredibly valuable, having them all available shows that there is still room for improvement.
 
-JavaScript data blatantly stolen from [https://github.com/tech-conferences/javascript-conferences/blob/master/conferences/2018/javascript.json](https://github.com/tech-conferences/javascript-conferences/blob/master/conferences/2018/javascript.json).
+One one hand, there are conferences that are listed across the board, which results in duplicated effort. I am not the first to notice this, and I believe the people responsible for the first four links have begun talks about this (see [here](https://github.com/tech-conferences/javascript-conferences/issues/36), although without much current progress.
 
-# Future Acknowledgements
+On the other hand, there are conferences listed in one resource but not in the others, meaning that taking any sigle list as the unique source of information does not meet my requirements.
 
-More will be stolen from [https://github.com/frontendfront/front-end-conferences](https://github.com/frontendfront/front-end-conferences), and [https://github.com/szabgab/codeandtalk.com/tree/main/data/events](https://github.com/szabgab/codeandtalk.com/tree/main/data/events), and [https://github.com/asciidisco/web-conferences-2018](https://github.com/asciidisco/web-conferences-2018), and [https://github.com/softwaremill/it-cfp-list](https://github.com/softwaremill/it-cfp-list).
+Additionally, even combining all six different sources, I was still able to find interesting conferences that were not listed (e.g., [YOW! Lambda Jam 2018](http://lambdajam.yowconference.com.au/)).
 
-There are two big lists [here](https://purelyfunctional.tv/functional-programming-conferences/) and [here](https://medium.com/@FunctionalWorks/functional-programming-conference-calendar-e24bc799c908) with data from previous years that we should go over, and search if there are current editions.
+Finally, all six sources store the data in different formats, provide different ways of accessing it programatically (some provide an API, for others you must fallback to the underlying git infrastructure), and present different kinds of front-ends, with different kinds of functionality.
 
-# Future Steps
+## The Solution
 
-I would like to automate the thievery. Also, some heuristical deduplication will be required. Maybe just checking the upstream sources and notifying that new stuff is there, then doing some manual merging/adding? This should not change *that* frequently. Would be nice to plan ahead and allow easily adding new upstream sources.
+![https://xkcd.com/927/](https://imgs.xkcd.com/comics/standards.png "https://xkcd.com/927/")
 
-Also, all the data should be stored in a parsable common format and a proper frontend should be prepared for it. Gather real functional requirements.
+Attempting to avoid the above situation, I do not plan to create yet another _"send me your PR with the data I'm missing"_ github-based website.
 
-# More Confs
+The existing data is valuable, and the existing processes that create it shall not be disturbed. We will just consume it, and consolidate it.
 
-Just so I don't forget, there are more confs that are not listed.
+The only challenge here is heuristically detecting duplicates, but I predict that simply matching the dates, names and locations will do. The resulting list will still be small enough (<1000) to be able to be reviewed manually.
 
-* http://yowconference.com.au/
+If a duplicate is detected (either during creation or update), then we can keep the latest version, or drop it. We have no reason to trust either source more than another one, and they all might be wrong, so it would still make sense to eventually review the data manually.
+
+The resulting data should be made accessible via an API, allowing a front-end to be developed.
+
+This leaves only one problem left: Missing conferences.
+
+The fact that even with all sources confereces are still missing should be enough evidence that the PR approach is not sufficient, and a different solution must be implemented.
+
+While I have no knowledge of the current trends in AI, it is my gut feeling that it should be possible to identify conference-like events from current social media posts, as well as by parsing specific sources such as reddit or hacker news. The goal of this process is to automatically extract names of potential events.
+
+A second process would consist of, given a potential event name, attempt to confirm if there is an upcoming instance of it or not, based on the assumption that an existing event will produce a specific kind of results over, say, google search.
+
+The goal would be to fully automate this process, with minimum human oversight (moderation/validation).
+
+An initial implementation could consist on just the framework for the process, allowing it to work in a completely way, just to have a work-around to quickly load missing events regardless.
+
+In addition to the listed sources, which also contain data for previous years, these two links should also provide more potential event names:
+* https://purelyfunctional.tv/functional-programming-conferences/
+* https://medium.com/@FunctionalWorks/functional-programming-conference-calendar-e24bc799c908
+
+## Next Steps
+
+Since at the end of the day what I need is "the product", the goal is to work under an iterative, MVP approach focusing on getting the first workable version as soon as possible, being ready to throw away and rewrite significant parts of the code as the project moves along.
+
+The stated solution is already split in various components:
+* A scraper
+* An aggregator
+* An API server
+* A frontend
+
+For the initial version, the following interfaces will be adopted:
+
+All components will be standalone applications. All components will consume input via stdin and generate output via stdout. Errors will be reported as non-zero exit codes.
+
+Scrapers will fetch data from a specific source and output a list of parsed resources in YAML.
+
+The aggregator will consume a list of resources in YAML and generate a consolidated list, taking care of deduplication/merging.
+
+The API server will be mocked by statically hosting the final YAML list.
+
+The frontend will be mocked by statically generating a Markdown document based on the YAML list.
+
+A build component will be developed to orchestrate all the above processes together. At this stage, addition of new events will be mocked by manually generating scraper output by hand.
+
+Initially, all components will be developed under this repository. This will change with time as the project takes shape.
