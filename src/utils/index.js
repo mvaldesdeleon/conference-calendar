@@ -9,9 +9,11 @@ const awaitAll = Promise.all.bind(Promise)
 const mapPromise = fn => array =>
     awaitAll (map (fn) (array))
 
-const concat = arrayA => arrayB => [].concat(arrayA, arrayB)
+const concat = arrayA => arrayB =>
+    [].concat(arrayA, arrayB)
 
-const flatten = arrays => [].concat(...arrays)
+const flatten = arrays =>
+    [].concat(...arrays)
 
 const removeUndefinedFields = object =>
     Object.keys (object)

@@ -13,9 +13,11 @@ const eventProcessor = ({name, website, event_start, event_end, location: {city,
 const processor = content =>
     eventProcessor (JSON.parse(content))
 
-const byYear = year => ({startDate}) => startDate.slice (0, 4) === year.toString ()
+const byYear = year =>
+    ({startDate}) => startDate.slice (0, 4) === year.toString ()
 
-const currentYear = () => (new Date ()).getFullYear ()
+const currentYear = () =>
+    (new Date ()).getFullYear ()
 
 const scrape = () =>
     github.getFiles (OWNER) (REPO) (PATH) (processor)

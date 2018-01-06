@@ -1,16 +1,3 @@
-/*
-Scraper: Basic Github scraping module.
-
-Features:
-Process file at specified path.
-List all files at a specified path, and process them.
-
-Processed files might be:
-JSON (Array & Object)
-Markdown (Ad-hoc)
-
-*/
-
 const got = require('got')
 const { map, filter, mapPromise } = require('../../utils')
 
@@ -18,6 +5,7 @@ const { map, filter, mapPromise } = require('../../utils')
 const isFile = ({type}) =>
     type === 'file'
 
+//    isArray :: Object -> Boolean
 const isArray = value =>
     value instanceof Array
 

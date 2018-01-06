@@ -12,7 +12,8 @@ const TECH_PATH = 'conferences/2018'
 const eventProcessor = ({name, url, startDate, endDate, city, country, cfpUrl, cfpEndDate}) =>
     ({name, url, startDate, endDate, city, country, cfpUrl, cfpEndDate, source: SOURCE, tags: []})
 
-const fileProcessor = map (eventProcessor)
+const fileProcessor =
+    map (eventProcessor)
 
 const processor = content =>
     fileProcessor (JSON.parse(content))
