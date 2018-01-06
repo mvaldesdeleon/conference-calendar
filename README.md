@@ -1,5 +1,9 @@
 # Conference Calendar
 
+**PLEASE SEE [MISSION STATEMENT](https://github.com/mvaldesdeleon/conference-calendar/tree/master/MISSION_STATEMENT.md)!
+
+Things have changed.**
+
 List of all upcoming conferences. PR's welcome.
 
 # 2018
