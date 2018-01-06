@@ -78,3 +78,19 @@ Event (URL) | Location | Start Date | End Date | CFP Url | CFP Due Date | Keywor
 * React
 * Angular
 * Node.js
+
+# Acknowledgements
+
+JavaScript data blatantly stolen from [https://github.com/tech-conferences/javascript-conferences/blob/master/conferences/2018/javascript.json](https://github.com/tech-conferences/javascript-conferences/blob/master/conferences/2018/javascript.json).
+
+# Future Acknowledgements
+
+More will be stolen from [https://github.com/frontendfront/front-end-conferences](https://github.com/frontendfront/front-end-conferences), and [https://github.com/szabgab/codeandtalk.com/tree/main/data/events](https://github.com/szabgab/codeandtalk.com/tree/main/data/events), and [https://github.com/asciidisco/web-conferences-2018](https://github.com/asciidisco/web-conferences-2018), and [https://github.com/softwaremill/it-cfp-list](https://github.com/softwaremill/it-cfp-list).
+
+There are two big lists [here](https://purelyfunctional.tv/functional-programming-conferences/) and [here](https://medium.com/@FunctionalWorks/functional-programming-conference-calendar-e24bc799c908) with data from previous years that we should go over, and search if there are current editions.
+
+# Future Steps
+
+I would like to automate the thievery. Also, some heuristical deduplication will be required. Maybe just checking the upstream sources and notifying that new stuff is there, then doing some manual merging/adding? This should not change *that* frequently. Would be nice to plan ahead and allow easily adding new upstream sources.
+
+Also, all the data should be stored in a parsable common format and a proper frontend should be prepared for it. Gather real functional requirements.
