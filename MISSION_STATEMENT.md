@@ -59,7 +59,9 @@ In addition to the listed sources, which also contain data for previous years, t
 * https://purelyfunctional.tv/functional-programming-conferences/
 * https://medium.com/@FunctionalWorks/functional-programming-conference-calendar-e24bc799c908
 
-## Roadmap
+## Next Steps
+
+Since at the end of the day what I need is "the product", the goal is to work under an iterative, MVP approach focusing on getting the first workable version as soon as possible, being ready to throw away and rewrite significant parts of the code as the project moves along.
 
 The stated solution is already split in various components:
 * A scraper
@@ -67,4 +69,18 @@ The stated solution is already split in various components:
 * An API server
 * A frontend
 
-Addition of new events will initially be mocked by manually generating scraper output by hand, while the permanent solution is fully conceptualized.
+For the initial version, the following interfaces will be adopted:
+
+All components will be standalone applications. All components will consume input via stdin and generate output via stdout. Errors will be reported as non-zero exit codes.
+
+Scrapers will fetch data from a specific source and output a list of parsed resources in YAML.
+
+The aggregator will consume a list of resources in YAML and generate a consolidated list, taking care of deduplication/merging.
+
+The API server will be mocked by statically hosting the final YAML list.
+
+The frontend will be mocked by statically generating a Markdown document based on the YAML list.
+
+A build component will be developed to orchestrate all the above processes together. At this stage, addition of new events will be mocked by manually generating scraper output by hand.
+
+Initially, all components will be developed under this repository. This will change with time as the project takes shape.
