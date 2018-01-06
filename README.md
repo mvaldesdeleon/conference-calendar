@@ -21,9 +21,9 @@ All of the sources follow a similar pattern of being community-maintained via Pu
 
 While I must say that these each of these sources by itself is incredibly valuable, having them all available shows that there is still room for improvement.
 
-One one hand, there are conferences that are listed across the board, which results in duplicated effort. I am not the first to notice this, and I believe the people responsible for the first four links have begun talks about this (see [here](https://github.com/tech-conferences/javascript-conferences/issues/36), although without much current progress.
+One one hand, there are conferences that are listed across the board, which results in duplicated effort. I am not the first to notice this, and I believe the people responsible for the first four links have begun talks about this (see [here](https://github.com/tech-conferences/javascript-conferences/issues/36)), although without much current progress.
 
-On the other hand, there are conferences listed in one resource but not in the others, meaning that taking any sigle list as the unique source of information does not meet my requirements.
+On the other hand, there are conferences listed in one resource but not in the others, meaning that taking any single list as the unique source of information does not meet my requirements.
 
 Additionally, even combining all six different sources, I was still able to find interesting conferences that were not listed (e.g., [YOW! Lambda Jam 2018](http://lambdajam.yowconference.com.au/)).
 
