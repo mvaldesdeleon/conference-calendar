@@ -9,6 +9,7 @@
   "dependencies": {
     "get-stdin": "^5.0.1",
     "got": "^8.0.1",
+    "handlebars": "^4.0.11",
     "js-yaml": "^3.10.0"
   },
   "devDependencies": {
