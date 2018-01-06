@@ -1,6 +1,6 @@
-const yaml = require('js-yaml')
+const { safeDump: toYaml} = require('js-yaml')
 const github = require('../lib/github')
-const { map, awaitAll, concat, flatten } = require('../utils')
+const { map, awaitAll, concat, flatten, removeUndefinedFields, run } = require('../utils')
 
 const SOURCE = 'Tech Conferences'
 const OWNER = 'tech-conferences'
@@ -17,10 +17,6 @@ const fileProcessor = map (eventProcessor)
 const processor = content =>
     fileProcessor (JSON.parse(content))
 
-const removeUndefinedFields = object =>
-    Object.keys (object)
-        .reduce (((clone, key) => Object.assign(clone, object[key] !== undefined ? {[key]: object[key]} : {})), {})
-
 const scrape = () =>
     awaitAll ([
         github.getFile (OWNER) (JS_REPO) (JS_PATH) (processor),
@@ -28,19 +24,9 @@ const scrape = () =>
     ])
         .then (([events, eventsList]) => concat (events) (flatten (eventsList)))
         .then (map (removeUndefinedFields))
-        .then (yaml.safeDump)
+        .then (toYaml)
 
-const print = text =>
-    process.stdout.write (text)
-
-const error = ({message}) =>
-    (process.stderr.write (`${message}`), process.exitCode = -1, Promise.resolve())
-
-if (require.main === module) {
-    scrape()
-        .then(print)
-        .catch(error)
-}
+if (require.main === module) run (scrape)
 
 module.exports =
     { scrape }

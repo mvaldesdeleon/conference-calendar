@@ -13,5 +13,20 @@ const concat = arrayA => arrayB => [].concat(arrayA, arrayB)
 
 const flatten = arrays => [].concat(...arrays)
 
+const removeUndefinedFields = object =>
+    Object.keys (object)
+        .reduce (((clone, key) => Object.assign(clone, object[key] !== undefined ? {[key]: object[key]} : {})), {})
+
+const print = text =>
+    process.stdout.write (text)
+
+const error = ({message}) =>
+    (process.stderr.write (`${message}`), process.exitCode = -1, Promise.resolve())
+
+const run = run =>
+    run()
+        .then(print)
+        .catch(error)
+
 module.exports =
-    { map, filter, awaitAll, mapPromise, concat, flatten }
+    { map, filter, awaitAll, mapPromise, concat, flatten, removeUndefinedFields, run }

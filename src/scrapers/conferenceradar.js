@@ -1,6 +1,6 @@
-const yaml = require('js-yaml')
+const { safeDump: toYaml} = require('js-yaml')
 const github = require('../lib/github')
-const { map } = require('../utils')
+const { map, removeUndefinedFields, run } = require('../utils')
 
 const SOURCE = 'Conference Radar'
 const OWNER = 'conferenceradar'
@@ -16,26 +16,12 @@ const eventProcessor = ({name, url, eventStartDate, eventEndDate, city, country,
 const processor = content =>
     eventProcessor (JSON.parse(content))
 
-const removeUndefinedFields = object =>
-    Object.keys (object)
-        .reduce (((clone, key) => Object.assign(clone, object[key] !== undefined ? {[key]: object[key]} : {})), {})
-
 const scrape = () =>
     github.getFiles (OWNER) (REPO) (PATH) (processor)
         .then (map (removeUndefinedFields))
-        .then (yaml.safeDump)
+        .then (toYaml)
 
-const print = text =>
-    process.stdout.write (text)
-
-const error = ({message}) =>
-    (process.stderr.write (`${message}`), process.exitCode = -1, Promise.resolve())
-
-if (require.main === module) {
-    scrape()
-        .then(print)
-        .catch(error)
-}
+if (require.main === module) run (scrape)
 
 module.exports =
     { scrape }
