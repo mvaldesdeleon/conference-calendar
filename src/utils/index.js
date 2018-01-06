@@ -4,10 +4,14 @@ const map = fn => array =>
 const filter = pr => array =>
     array.filter(x => pr(x))
 
-const awaitAll = Promise.all.bind(Promise)
+const awaitAll =
+    Promise.all.bind(Promise)
 
 const mapPromise = fn => array =>
     awaitAll (map (fn) (array))
+
+const isArray = value =>
+    value instanceof Array
 
 const concat = arrayA => arrayB =>
     [].concat(arrayA, arrayB)
@@ -31,4 +35,4 @@ const run = run =>
         .catch(error)
 
 module.exports =
-    { map, filter, awaitAll, mapPromise, concat, flatten, removeUndefinedFields, run }
+    { map, filter, awaitAll, mapPromise, isArray, concat, flatten, removeUndefinedFields, run }

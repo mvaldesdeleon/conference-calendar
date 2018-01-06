@@ -1,13 +1,9 @@
 const got = require('got')
-const { map, filter, mapPromise } = require('../../utils')
+const { map, filter, mapPromise, isArray } = require('../../utils')
 
 //    isFile :: Object -> Boolean
 const isFile = ({type}) =>
     type === 'file'
-
-//    isArray :: Object -> Boolean
-const isArray = value =>
-    value instanceof Array
 
 //    validate :: (a -> Boolean) -> String -> a -> Promise ({String}, a)
 const validate = condition => message => value =>
