@@ -84,3 +84,7 @@ The frontend will be mocked by statically generating a Markdown document based o
 A build component will be developed to orchestrate all the above processes together. At this stage, addition of new events will be mocked by manually generating scraper output by hand.
 
 Initially, all components will be developed under this repository. This will change with time as the project takes shape.
+
+# License
+
+MIT
