@@ -5,8 +5,8 @@ List of all upcoming conferences. PR's welcome.
 # 2018
 
 Event (URL) | Location | Start Date | End Date | CFP Url | CFP Due Date | Keywords
---- | --- | --- | --- | --- | ---
-[Beyond Tellerrand](https://beyondtellerrand.com/events/munich-2018) | Munich, Germany | 2018-01-15 | 2018-01-17 |  |  | 
+--- | --- | --- | --- | --- | --- | ---
+[Beyond Tellerrand](https://beyondtellerrand.com/events/munich-2018) | Munich, Germany | 2018-01-15 | 2018-01-17 |  |  |  
 [Script](https://scriptconf.org/) | Linz, Austria | 2018-01-19 | 2018-01-19 |  |  | 
 [FronteEndNorth](https://frontendnorth.com/) | Sheffield, U.K. | 2018-01-19 | 2018-01-19 |  |  | 
 [ReactFoo](https://reactfoo.in/2018-pune/) | Pune, India | 2018-01-19 | 2018-01-20 | [link](https://reactfoo.talkfunnel.com/2018-pune/) |  | 
