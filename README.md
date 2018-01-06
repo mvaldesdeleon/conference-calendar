@@ -94,3 +94,9 @@ There are two big lists [here](https://purelyfunctional.tv/functional-programmin
 I would like to automate the thievery. Also, some heuristical deduplication will be required. Maybe just checking the upstream sources and notifying that new stuff is there, then doing some manual merging/adding? This should not change *that* frequently. Would be nice to plan ahead and allow easily adding new upstream sources.
 
 Also, all the data should be stored in a parsable common format and a proper frontend should be prepared for it. Gather real functional requirements.
+
+# More Confs
+
+Just so I don't forget, there are more confs that are not listed.
+
+* http://yowconference.com.au/
