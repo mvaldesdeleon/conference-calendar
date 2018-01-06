@@ -1,4 +1,4 @@
-const { safeDump: toYaml} = require('js-yaml')
+const { safeDump: toYaml } = require('js-yaml')
 const github = require('../lib/github')
 const { map, awaitAll, concat, flatten, removeUndefinedFields, run } = require('../utils')
 
