@@ -21,10 +21,10 @@ const print = text =>
     process.stdout.write (text)
 
 const error = ({message}) =>
-    (process.stderr.write (`${message}`), process.exitCode = -1, Promise.resolve())
+    (process.stderr.write (`${message}`), process.exitCode = -1, Promise.resolve ())
 
 const run = run =>
-    run()
+    run ()
         .then(print)
         .catch(error)
 
