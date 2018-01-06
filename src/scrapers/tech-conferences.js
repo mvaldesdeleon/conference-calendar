@@ -30,5 +30,17 @@ const scrape = () =>
         .then (map (removeUndefinedFields))
         .then (yaml.safeDump)
 
+const print = text =>
+    process.stdout.write (text)
+
+const error = ({message}) =>
+    (process.stderr.write (`${message}`), process.exitCode = -1, Promise.resolve())
+
+if (require.main === module) {
+    scrape()
+        .then(print)
+        .catch(error)
+}
+
 module.exports =
     { scrape }
