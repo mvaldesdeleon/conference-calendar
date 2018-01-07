@@ -65,6 +65,8 @@ In addition to the listed sources, which also contain data for previous years, t
 
 ## Next Steps
 
+> Development notes provided as blockquotes
+
 Since at the end of the day what I need is "the product", the goal is to work under an iterative, MVP approach focusing on getting the first workable version as soon as possible, being ready to throw away and rewrite significant parts of the code as the project moves along.
 
 The stated solution is already split in various components:
@@ -77,15 +79,23 @@ For the initial version, the following interfaces will be adopted:
 
 All components will be standalone applications. All components will consume input via stdin and generate output via stdout. Errors will be reported as non-zero exit codes.
 
+> Additionally, they expose their core funcionality as a node module
+
 Scrapers will fetch data from a specific source and output a list of parsed resources in YAML.
 
 The aggregator will consume a list of resources in YAML and generate a consolidated list, taking care of deduplication/merging.
 
+> Additionally, the aggregator sorts the results and ensures that a minimum set of fields are present and with valid data
+
 The API server will be mocked by statically hosting the final YAML list.
+
+> For the time being this is not exposed. The build script should be modified to allow skipping the frontend step, if the YAML document is required.
 
 The frontend will be mocked by statically generating a Markdown document based on the YAML list.
 
 A build component will be developed to orchestrate all the above processes together. At this stage, addition of new events will be mocked by manually generating scraper output by hand.
+
+> Manual addition of new events is pending. I think loading them from a file would be the best option here. This file should be added to the scraper output.
 
 Initially, all components will be developed under this repository. This will change with time as the project takes shape.
 
