@@ -1,10 +1,11 @@
 {
   "name": "conference-calendar",
-  "version": "0.0.1",
-  "description": "The missing aggregator of tech-related conferences<Paste>",
+  "version": "0.1.0",
+  "description": "The missing aggregator of tech-related conferences",
   "main": "src/index.js",
   "scripts": {
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "build": "node src/index.js > dist/output.md"
   },
   "dependencies": {
     "get-stdin": "^5.0.1",
