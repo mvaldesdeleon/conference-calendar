@@ -16,8 +16,13 @@ const day = date =>
 
 const sameMonth = dateA => dateB => (new Date(dateA)).getMonth () === (new Date(dateB)).getMonth ()
 
+const sameDay = dateA => dateB => (new Date(dateA)).getDate () === (new Date(dateB)).getDate ()
+
+const shortDates = startDate => endDate =>
+    sameDay (startDate) (endDate) ? date (startDate) : `${date (startDate)}-${day (endDate)}`
+
 const dates = startDate => endDate =>
-    sameMonth (startDate) (endDate) ? `${date (startDate)}-${day (endDate)}` : `${date (startDate)}-${date (endDate)}`
+    sameMonth (startDate) (endDate) ? shortDates (startDate) (endDate) : `${date (startDate)}-${date (endDate)}`
 
 const makeDate = ({startDate, endDate}) =>
     startDate && endDate ? dates (startDate) (endDate) : (date (startDate) || '')
