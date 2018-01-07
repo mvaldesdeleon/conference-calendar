@@ -2,6 +2,7 @@ const { isArray } = require('../utils')
 
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 
+// XXX replace `|` with ` `
 const makeEvent = ({name, url}) =>
     name && url ? `[${name}](${url})` : (name || '')
 

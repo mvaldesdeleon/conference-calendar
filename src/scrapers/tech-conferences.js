@@ -9,6 +9,8 @@ const JS_PATH = 'conferences/2018/javascript.json'
 const TECH_REPO = 'confs.tech'
 const TECH_PATH = 'conferences/2018'
 
+// XXX 'U.K.' and 'U.S.A.'
+// XXX 'San Antonio, TX' and such as city
 const eventProcessor = ({name, url, startDate, endDate, city, country, cfpUrl, cfpEndDate}) =>
     ({name, url, startDate, endDate, city, country, cfpUrl, cfpEndDate, source: SOURCE, tags: []})
 

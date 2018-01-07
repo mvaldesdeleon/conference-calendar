@@ -7,6 +7,8 @@ const OWNER = 'szabgab'
 const REPO = 'codeandtalk.com'
 const PATH = 'data/events'
 
+// XXX 'UK' and 'USA'
+// XXX 'The Netherlands'
 const eventProcessor = ({name, website, event_start, event_end, location: {city, country}, cfp_end, tags}) =>
     ({name, url: website, startDate: event_start, endDate: event_end, city, country, cfpUrl: '', cfpEndDate: cfp_end, source: SOURCE, tags})
 
