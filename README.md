@@ -1,3 +1,7 @@
+# Conference Calendar
+
+Currently working on the proof of concept version. Preeliminary data available [here](https://github.com/mvaldesdeleon/conference-calendar/blob/master/dist/output.md), deduplication still pending.
+
 # Mission Statement
 
 ## The Problem
