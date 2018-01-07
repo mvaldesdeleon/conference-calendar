@@ -13,7 +13,7 @@ const eventProcessor = ({name, website, event_start, event_end, location: {city,
     ({name, url: website, startDate: event_start, endDate: event_end, city, country, cfpUrl: '', cfpEndDate: cfp_end, source: SOURCE, tags})
 
 const processor = content =>
-    eventProcessor (JSON.parse(content))
+    eventProcessor (JSON.parse (content))
 
 const byYear = year =>
     ({startDate}) => startDate.slice (0, 4) === year.toString ()

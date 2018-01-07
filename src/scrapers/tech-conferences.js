@@ -18,7 +18,7 @@ const fileProcessor =
     map (eventProcessor)
 
 const processor = content =>
-    fileProcessor (JSON.parse(content))
+    fileProcessor (JSON.parse (content))
 
 const scrape = () =>
     awaitAll ([
